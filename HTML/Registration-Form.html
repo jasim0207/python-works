@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <style type="text/css">
+          *{
+             margin:0;
+             padding:0;
+          }
+          body{
+              background:linear-gradient(135deg, #71b7e6, #9b59b6);
+          }
+          div.main{
+                width:400px;
+                margin: 100px auto 0px auto;
+
+          }
+          div.header{
+             text-align:center;
+             padding:20px;
+             font-family:sans-serif;
+             background-color:#080f40;
+             border-radius:10px 10px 0 0;
+          }
+          div.register{
+              background-color:#13074f;
+              width:100%;
+
+              border-radius:10px;
+              color:#fff;
+          }
+          form#register{
+           margin: 40px;
+          }
+          input#name{
+            width:300px;
+            border-radius:5px;
+            outline:0;
+            padding:7px;
+          }
+          button{
+               width:100px;
+               padding:7px;
+               font-size:16px;
+               font-weight:600;
+               border:none;
+               border-radius:3px;
+               background-color: #4ea832;
+               color:#fff;
+               margin-left:220px;
+               margin-bottom:20px;
+
+
+
+          }
+          label{
+               font-size:12px;
+               margin-left:5px;
+          }
+
+    </style>
+</head>
+<body>
+      <div class="main">
+          <div class="register">
+              <div class="header">
+                   <h2>Registration Form</h2>
+              </div>
+
+              <form id="register" method="post">
+                  <input type="text" name="fname" id="name" placeholder="First name" >
+                  <br><br>
+                  <input type="text" name="lname" id="name" placeholder="last name" >
+                  <br><br>
+                  <input type="email" name="email" id="name" placeholder="Email">
+                  <br><br>
+                  <input type="password" name="password" id="name" placeholder="password">
+                  <br><br>
+                  <input type="checkbox">
+                  <label>  Lorem ipsum dolor sit amet. Aut blanditiis magnam qui anim </label>
+                  <br><br>
+                  <input type="checkbox">
+                  <label> Lorem ipsum dolor sit amet. Aut blanditiis magnam qui anim</label>
+                  <br><br>
+                  <button>Register</button>
+              </form>
+          </div><!--register end here-->
+      </div><!--main end here-->
+</body>
+</html>

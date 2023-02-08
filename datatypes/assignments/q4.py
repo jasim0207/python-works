@@ -1,0 +1,5 @@
+#4. Reverse a list in python
+# list1 = [100,200,300,400,500]
+
+list1 = [100,200,300,400,500]
+print(list1[::-1])
